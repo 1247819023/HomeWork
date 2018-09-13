@@ -20,4 +20,5 @@ select p.id,p.cityName as 省,s.cityName as 市,null from s_provinces s
 left join s_provinces p on s.parentId=p.id 
 where p.cityName='广东省'
 
-**union 查询不重复的数据；union 查询全部数据
+
+**union 查询不重复的数据；union all 查询全部数据
