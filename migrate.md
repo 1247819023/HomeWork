@@ -1,4 +1,4 @@
-##总结分割方法
+## 总结分割方法
 #### 1.先创建表：lagou_company,再取得与公司相关的字段：company_id、company_short_name、company_full_name、company_size、financestage，去除重复，然后将数据插入到表lagou_company中;
 #### 2.删除lagou表中原来与公司相关的字段，保留company_id；
 #### 3.创建lagou_city表，获取p_procince表中的区id、省、市、区数据，将数据插入lagou_city表；
